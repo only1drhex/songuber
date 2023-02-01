@@ -14,12 +14,12 @@ export function template(data){
         content="${data.query} MP3 Download. Download ${data.query} mp3 file at 320kbps audio quality." />
     <meta name="keywords"
         content="Song Ubuer, ${data.query}, mp3 download, music download, song download, 320kbps mp3, 320kbps music, mp3 music, free mp3, free music, " />
-    <link rel="canonical" href="/mp3/${data.query}" />
-    <meta property="og:url" content="/mp3/${data.query}" />
+    <link rel="canonical" href="${data.webx}/mp3/${data.query}" />
+    <meta property="og:url" content="${data.webx}/mp3/${data.query}" />
     <meta property="og:image" content="${data.thumbnail}" />
     <meta charset="UTF-8" />
     <meta property="og:type" content="website" />
-    <link rel="preconnect" href="https://songuber.co">
+    <link rel="preconnect" href="${data.webx}">
     <link rel="preconnect" href="https://www.google-analytics.com">
     <link rel="preconnect" href="https://www.googletagmanager.com">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -2426,10 +2426,8 @@ export function template(data){
             font-weight: 400 !important
         }
     </style>
-    <script> window.appPrompt = null; window.addEventListener('beforeinstallprompt', function (e) { e.preventDefault(); console.log('PWA'); window.appPrompt = e; }); window._PWAV = '1634978272'; window.__ytdl = 'https://ytmp3cut.com/'; window._YTDL = JSON.parse('{"_geo":"NG","safe":"https:\/\/ytmp3cut.com\/","desk":"https:\/\/ytmp3cut.com\/","mobi":"https:\/\/ytmp3cut.com\/"}'); </script>
+    <script> window.appPrompt = null; window.addEventListener('beforeinstallprompt', function (e) { e.preventDefault(); console.log('PWA'); window.appPrompt = e; }); window._PWAV = '1634978272'; window.__ytdl = 'https://ytmp3x.com/'; window._YTDL = JSON.parse('{"_geo":"NG","safe":"https:\/\/ytmp3x.com\/","desk":"https:\/\/ytmp3x.com\/","mobi":"https:\/\/ytmp3x.com\/"}'); </script>
     <script type="text/javascript" src="/ibro.js" async defer></script>
-    <script src="https://www.googletagmanager.com/gtag/js?id=UA-134594137-1" async defer></script>
-    <script> window.dataLayer = window.dataLayer || []; function gtag() { dataLayer.push(arguments) } gtag('js', new Date()); gtag('config', 'UA-134594137-1'); </script>
 </head>
  
 <body>

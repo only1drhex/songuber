@@ -11,7 +11,7 @@ export async function onRequestGet(context){
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">`
    
 var path = context.functionPath.split("/")[2].match(/\d/g).join("");
-
+var webx = context.request.url.split("/")[2]
 if(path == 1){
     word = word.slice(0,50000)
 }
@@ -32,7 +32,7 @@ for(var i=0;i<word.length;i++){
     var entry = word[i]
 map += `
     <url>
-    <loc>https://songuber.com/${entry}</loc>
+    <loc>${webx}/mp3/${entry}</loc>
     ${lastmod}
     </url>
 ` 
