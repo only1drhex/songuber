@@ -1,5 +1,5 @@
 
-const  template  = require("../kit/template");
+const { template }  = require("../kit/template");
 const ytsearch = require("../kit/dosearch");
 
 export async function onRequestGet(context){
