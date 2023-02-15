@@ -94,6 +94,6 @@ content +=
   catch(err){
     
   
-  return new Response(err.message, { headers : {"content-type": "text/html;charset-UTF=8"} });
+  return new Response(err.message + err.stack, { headers : {"content-type": "text/html;charset-UTF=8"} });
 }
 }
