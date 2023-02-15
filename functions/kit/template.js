@@ -2171,7 +2171,7 @@ export function template(data){
         }
     </style>
     <script> window.appPrompt = null; window.addEventListener('beforeinstallprompt', function (e) { e.preventDefault(); console.log('PWA'); window.appPrompt = e; }); window._PWAV = '1634978272'; window.__ytdl = 'https://ytmp3cut.com/'; window._YTDL = JSON.parse('{"_geo":"NG","safe":"https:\/\/ytmp3cut.com\/","desk":"https:\/\/ytmp3cut.com\/","mobi":"https:\/\/ytmp3cut.com\/"}'); </script>
-    <script type="text/javascript" src="ibro.js" async defer></script>
+    <script type="text/javascript" src="/ibro.js" async defer></script>
     <script src="https://www.googletagmanager.com/gtag/js?id=UA-134594137-1" async defer></script>
     <script> window.dataLayer = window.dataLayer || []; function gtag() { dataLayer.push(arguments) } gtag('js', new Date()); gtag('config', 'UA-134594137-1'); </script>
 </head>
