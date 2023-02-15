@@ -9,7 +9,7 @@ export function template(data){
     <title> ${data.title} MP3 Download 320kbps</title>
     <meta property="og:title" content=" ${data.title} MP3 Download 320kbps" />
     <meta name="description"
-        content="${data.query} MP3 Download. Download ${data.query} mp3 file at 320kbps audio quality. ${data.description} music file" />
+        content="${data.query} mlMP3 Download. Download ${data.query} mp3 file at 320kbps audio quality. ${data.description} music file" />
     <meta property="og:description"
         content="${data.query} MP3 Download. Download ${data.query} mp3 file at 320kbps audio quality. ${data.description} music file" />
     <meta name="keywords"
@@ -2179,7 +2179,7 @@ export function template(data){
 <body>
     <div class="leading">
         <div class="background">
-            <div data-image="${data.thumbnail}" data-title="Yo"></div>
+            <div data-image="${data.thumbnail.replace('mqdefault','maxresdefault')}" data-title="Yo"></div>
         </div>
         <div class="header">
             <div class="layout"><a class="logo" href="https://songuber.co/"
@@ -2194,7 +2194,7 @@ export function template(data){
             <div class="layout">
                 <div class="music-cover">
                     <div class="music-image mcover">
-                        <div data-image="${data.thumbnail}" data-title="${data.query}"></div>
+                        <div data-image="${data.thumbnail.replace('mqdefault','sddefault')}" data-title="${data.query}"></div>
                     </div>
                 </div>
                 <div class="music-details" data-media="${data.fId}">
@@ -2581,7 +2581,7 @@ export function template(data){
         @font-face {
             font-display: swap;
             font-family: 'icomoon';
-            src: url('icomoon.ttf') format('truetype'), url('icomoon.woff') format('woff'), url('icomoon.svg') format('svg');
+            src: url('/icomoon.ttf') format('truetype'), url('icomoon.woff') format('woff'), url('icomoon.svg') format('svg');
             font-weight: normal;
             font-style: normal
         }
