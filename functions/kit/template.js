@@ -2453,7 +2453,7 @@ export function template(data){
                         <div data-image="${data.thumbnail.replace('mqdefault','sddefault')}" data-title="${data.query}"></div>
                     </div>
                 </div>
-                <div class="music-details" data-media="${data.fId}">
+                <div class="music-details" data-media="${data.id}">
                     <div class="mdetails-info">
                         <h1>${data.fTitle} <span class="mp3-dl">MP3 Free Download</span></h1>
                         <ul class="music-info">
