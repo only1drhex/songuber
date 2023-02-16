@@ -36,10 +36,8 @@ try {
                var thumb = `https://i.ytimg.com/vi/${nId}/mqdefault.jpg`;
                var value = e[i].views;
                var count = value + " Streams.";
-               var time = e[i].time;
-               var seconds = Number(e[i].seconds);
-               var titleRI= title.replace(/[(")-\/•~=¥€¢{|}[\]]/g,' ').replace(/official/gi," ").replace(/video/gi," ").replace(/audio/g," ").trim().replace(/ +/g,"-");
-            
+               var fP = e[0].views + " Streams."; 
+              
          thmb.push(thumb)
          dsp.push(title)
       
@@ -49,7 +47,7 @@ content +=
 <div class="music-file" data-media="${id}">
 
                         <div class="mf-image">
-                            <div class="mf-ibg mcover"></div>
+                             <div class="mf-ibg mcover"></div>
                             <div class="lazy-thumbs" data-image="${thumb}"
                                 data-title="${title}"></div>
                         </div>
@@ -94,7 +92,7 @@ content +=
    var titleRI = decodeURI(query).replace(/ +/g,"-");
    var randy = Math.random()
    var webx = context.request.url.split("/")[2]
-   var obj = {webx: webx, "randy": randy, "fId":firstId, fTitle: firstTitle, "query": decodeURIComponent(query),"title": decodeURIComponent(title), "ogTitle": decodeURIComponent(title), "thumbnail": thumbnail, "description": decodeURIComponent(description),"keywords": decodeURIComponent(keyword),"titleRI": decodeURIComponent(titleRI), "content": content}
+   var obj = {webx: webx, "randy": randy, "fId":firstId, fTitle: firstTitle, fP:fP, "query": decodeURIComponent(query),"title": decodeURIComponent(title), "ogTitle": decodeURIComponent(title), "thumbnail": thumbnail, "description": decodeURIComponent(description),"keywords": decodeURIComponent(keyword),"titleRI": decodeURIComponent(titleRI), "content": content}
    var html = template(obj)
   
   

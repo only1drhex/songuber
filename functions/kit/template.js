@@ -59,47 +59,47 @@ export function template(data){
         }
 
         .fas.fa-volume-up:before {
-            content: "\e900"
+            content: "\\e900"
         }
 
         .fab.fa-facebook-f:before {
-            content: "\e901"
+            content: "\\e901"
         }
 
         .fab.fa-google-plus-g:before {
-            content: "\e902"
+            content: "\\e902"
         }
 
         .fab.fa-twitter:before {
-            content: "\e903"
+            content: "\\e903"
         }
 
         .fab.fa-whatsapp:before {
-            content: "\e904"
+            content: "\\e904"
         }
 
         .far.fa-calendar-star:before {
-            content: "\e905"
+            content: "\\e905"
         }
 
         .far.fa-star:before {
-            content: "\e906"
+            content: "\\e906"
         }
 
         .fas.fa-circle:before {
-            content: "\e907"
+            content: "\\e907"
         }
 
         .fas.fa-download:before {
-            content: "\e908"
+            content: "\\e908"
         }
 
         .fas.fa-paper-plane:before {
-            content: "\e909"
+            content: "\\e909"
         }
 
         .fas.fa-pause:before {
-            content: "\e90a"
+            content: "\\e90a"
         }
 
         .fas.fa-play:before {
@@ -107,43 +107,43 @@ export function template(data){
         }
 
         .fas.fa-search:before {
-            content: "\e90c"
+            content: "\\e90c"
         }
 
         .fas.fa-spinner-third:before {
-            content: "\e90d"
+            content: "\\e90d"
         }
 
         .fas.fa-star:before {
-            content: "\e90e"
+            content: "\\e90e"
         }
 
         .fas.fa-star-half-alt:before {
-            content: "\e90f"
+            content: "\\e90f"
         }
 
         .fas.fa-sync-alt:before {
-            content: "\e910"
+            content: "\\e910"
         }
 
         .fas.fa-undo:before {
-            content: "\e911"
+            content: "\\e911"
         }
 
         .fas.fa-user-crown:before {
-            content: "\e912"
+            content: "\\e912"
         }
 
         .fas.fa-volume:before {
-            content: "\e913"
+            content: "\\e913"
         }
 
         .fas.fa-volume-down:before {
-            content: "\e914"
+            content: "\\e914"
         }
 
         .fas.fa-volume-mute:before {
-            content: "\e915"
+            content: "\\e915"
         }
 
         .ui-helper-hidden {
@@ -2462,6 +2462,8 @@ export function template(data){
                                         class="fas fa-star"></span><span class="fas fa-star"></span></span></li>
                             <li><span class="fas fa-user-crown"></span>...</li>
                             <li><span class="far fa-calendar-star"></span>...</li>
+                            <li><span class="fas fa-play"></span>${data.fP}</li>
+
                         </ul>
                         <p class="music-description">... </p>
                         <div class="music-player"></div>
