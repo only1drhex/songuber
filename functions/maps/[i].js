@@ -35,7 +35,7 @@ map += `
     <loc>https://songuber.com/${entry}</loc>
     ${lastmod}
     </url>
-`
+` 
 
 }
 

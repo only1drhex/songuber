@@ -6,14 +6,14 @@ export function template(data){
 <html lang="en">
 
 <head>
-    <title> ${data.title} MP3 Download 320kbps</title>
-    <meta property="og:title" content=" ${data.title} MP3 Download 320kbps" />
+    <title> ${data.query} MP3 Download 320kbps</title>
+    <meta property="og:title" content=" ${data.query} MP3 Download 320kbps" />
     <meta name="description"
-        content="${data.query} mlMP3 Download. Download ${data.query} mp3 file at 320kbps audio quality. ${data.description} music file" />
+        content="${data.query} MP3 Download. Download ${data.query} mp3 file at 320kbps audio quality." />
     <meta property="og:description"
-        content="${data.query} MP3 Download. Download ${data.query} mp3 file at 320kbps audio quality. ${data.description} music file" />
+        content="${data.query} MP3 Download. Download ${data.query} mp3 file at 320kbps audio quality." />
     <meta name="keywords"
-        content="Song Ubuer, ${data.query}, mp3 download, music download, song download, 320kbps mp3, 320kbps music, mp3 music, free mp3, free music, ${data.description}" />
+        content="Song Ubuer, ${data.query}, mp3 download, music download, song download, 320kbps mp3, 320kbps music, mp3 music, free mp3, free music, " />
     <link rel="canonical" href="/mp3/${data.query}" />
     <meta property="og:url" content="/mp3/${data.query}" />
     <meta property="og:image" content="${data.thumbnail}" />
