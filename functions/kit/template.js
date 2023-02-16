@@ -2503,7 +2503,7 @@ export function template(data){
             </div>
             <div class="side-panel">
                 
-                </div>
+                
                 <h3>Top Music Downloads</h3>
                 <div class="top-musics">
                     <div class="top-music">
