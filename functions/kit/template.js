@@ -2502,48 +2502,7 @@ export function template(data){
                 
             </div>
             <div class="side-panel">
-                <h3>Famous Artists</h3>
-                <div class="top-artists">
-                    <div class="top-artist"><a href="https://songuber.co/mp3/Karol-G"
-                            title="Karol G MP3 Download 320kbps"><img data-src="https://songuber.co/artist/KAROL%20G"
-                                class="lazy" alt="KAROL G" title="Karol G MP3 Download 320kbps"><strong>KAROL
-                                G</strong></a></div>
-                    <div class="top-artist"><a href="https://songuber.co/mp3/Farruko"
-                            title="Farruko MP3 Download 320kbps"><img data-src="https://songuber.co/artist/Farruko"
-                                class="lazy" alt="Farruko"
-                                title="Farruko MP3 Download 320kbps"><strong>Farruko</strong></a></div>
-                    <div class="top-artist"><a href="https://songuber.co/mp3/Daniel-Caesar"
-                            title="Daniel Caesar MP3 Download 320kbps"><img
-                                data-src="https://songuber.co/artist/Daniel%20Caesar" class="lazy" alt="Daniel Caesar"
-                                title="Daniel Caesar MP3 Download 320kbps"><strong>Daniel Caesar</strong></a></div>
-                    <div class="top-artist"><a href="https://songuber.co/mp3/Lil-Uzi-Vert"
-                            title="Lil Uzi Vert MP3 Download 320kbps"><img
-                                data-src="https://songuber.co/artist/Lil%20Uzi%20Vert" class="lazy" alt="Lil Uzi Vert"
-                                title="Lil Uzi Vert MP3 Download 320kbps"><strong>Lil Uzi Vert</strong></a></div>
-                    <div class="top-artist"><a href="https://songuber.co/mp3/Giveon"
-                            title="Givēon MP3 Download 320kbps"><img data-src="https://songuber.co/artist/GIV%C4%92ON"
-                                class="lazy" alt="GIVĒON"
-                                title="Givēon MP3 Download 320kbps"><strong>GIVĒON</strong></a></div>
-                    <div class="top-artist"><a href="https://songuber.co/mp3/Yebba"
-                            title="Yebba MP3 Download 320kbps"><img data-src="https://songuber.co/artist/Yebba"
-                                class="lazy" alt="Yebba" title="Yebba MP3 Download 320kbps"><strong>Yebba</strong></a>
-                    </div>
-                    <div class="top-artist"><a href="https://songuber.co/mp3/Justin-Bieber"
-                            title="Justin Bieber MP3 Download 320kbps"><img
-                                data-src="https://songuber.co/artist/Justin%20Bieber" class="lazy" alt="Justin Bieber"
-                                title="Justin Bieber MP3 Download 320kbps"><strong>Justin Bieber</strong></a></div>
-                    <div class="top-artist"><a href="https://songuber.co/mp3/Lil-Nas-X"
-                            title="Lil Nas X MP3 Download 320kbps"><img
-                                data-src="https://songuber.co/artist/Lil%20Nas%20X" class="lazy" alt="Lil Nas X"
-                                title="Lil Nas X MP3 Download 320kbps"><strong>Lil Nas X</strong></a></div>
-                    <div class="top-artist"><a href="https://songuber.co/mp3/Rhenzy-Feliz"
-                            title="Rhenzy Feliz MP3 Download 320kbps"><img
-                                data-src="https://songuber.co/artist/Rhenzy%20Feliz" class="lazy" alt="Rhenzy Feliz"
-                                title="Rhenzy Feliz MP3 Download 320kbps"><strong>Rhenzy Feliz</strong></a></div>
-                    <div class="top-artist"><a href="https://songuber.co/mp3/Gunna"
-                            title="Gunna MP3 Download 320kbps"><img data-src="https://songuber.co/artist/Gunna"
-                                class="lazy" alt="Gunna" title="Gunna MP3 Download 320kbps"><strong>Gunna</strong></a>
-                    </div>
+                
                 </div>
                 <h3>Top Music Downloads</h3>
                 <div class="top-musics">
