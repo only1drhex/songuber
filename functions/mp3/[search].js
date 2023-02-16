@@ -29,9 +29,11 @@ try {
     for(var i=0; i<e.length; i++)
         {
                var id = e[i].id;
-               var firstId = e[0].id        
+               var nid = e[i].nId;
+               var firstId = e[0].nId;       
                var title = e[i].title;
-               var thumb = `https://i.ytimg.com/vi/${id}/mqdefault.jpg`;
+               var firstTitle= e[0].title;
+               var thumb = `https://i.ytimg.com/vi/${nId}/mqdefault.jpg`;
                var value = e[i].views;
                var count = value + " Streams.";
                var time = e[i].time;
@@ -48,7 +50,7 @@ content +=
 
                         <div class="mf-image">
                             <div class="mf-ibg mcover"></div>
-                            <div class="lazy-thumbs" data-image="${hex2ascii(thumb.substr(10,22))}"
+                            <div class="lazy-thumbs" data-image="${nId}"
                                 data-title="${title}"></div>
                         </div>
                         <div class="mf-details">
@@ -81,7 +83,7 @@ content +=
 
 
 
-
+ 
 }
 
    var title = query +" MP3 "
@@ -91,7 +93,7 @@ content +=
    var titleRI = decodeURI(query).replace(/ +/g,"-");
    var randy = Math.random()
    var webx = context.request.url.split("/")[2]
-   var obj = {webx: webx, "randy": randy, "fId":firstId, "query": decodeURIComponent(query),"title": decodeURIComponent(title), "ogTitle": decodeURIComponent(title), "thumbnail": thumbnail, "description": decodeURIComponent(description),"keywords": decodeURIComponent(keyword),"titleRI": decodeURIComponent(titleRI), "content": content}
+   var obj = {webx: webx, "randy": randy, "fId":firstId, fTitle: firstTitle, "query": decodeURIComponent(query),"title": decodeURIComponent(title), "ogTitle": decodeURIComponent(title), "thumbnail": thumbnail, "description": decodeURIComponent(description),"keywords": decodeURIComponent(keyword),"titleRI": decodeURIComponent(titleRI), "content": content}
    var html = template(obj)
   
   
