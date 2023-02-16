@@ -103,7 +103,7 @@ export function template(data){
         }
 
         .fas.fa-play:before {
-            content: "\e90b"
+            content: "\\e90b"
         }
 
         .fas.fa-search:before {
