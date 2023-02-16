@@ -14,8 +14,8 @@ export function template(data){
         content="${data.query} MP3 Download. Download ${data.query} mp3 file at 320kbps audio quality. ${data.description} music file" />
     <meta name="keywords"
         content="Song Ubuer, ${data.query}, mp3 download, music download, song download, 320kbps mp3, 320kbps music, mp3 music, free mp3, free music, ${data.description}" />
-    <link rel="canonical" href="https://songuber.co/mp3/${data.query}" />
-    <meta property="og:url" content="https://songuber.co/mp3/${data.query}" />
+    <link rel="canonical" href="/mp3/${data.query}" />
+    <meta property="og:url" content="/mp3/${data.query}" />
     <meta property="og:image" content="${data.thumbnail}" />
     <meta charset="UTF-8" />
     <meta property="og:type" content="website" />
@@ -2438,7 +2438,7 @@ export function template(data){
             <div data-image="${data.thumbnail.replace('mqdefault','maxresdefault')}" data-title="Yo"></div>
         </div>
         <div class="header">
-            <div class="layout"><a class="logo" href="https://songuber.co/"
+            <div class="layout"><a class="logo" href="/"
                     title="Song Uber - Search and download your favorite music songs"><span
                         class="logo-text logo-font">Song Uber</span></a>
                 <div class="search"><input type="text" id="searchInput" placeholder="Search your favorite music..."
@@ -2507,58 +2507,58 @@ export function template(data){
                 <h3>Top Music Downloads</h3>
                 <div class="top-musics">
                     <div class="top-music">
-                        <div class="tm-cover"><a href="https://songuber.co/mp3/Ocean-Gold"
+                        <div class="tm-cover"><a href="/mp3/Ocean-Gold"
                                 title="Ocean Gold MP3 Download 320kbps"><img
                                     data-src="https://is2-ssl.mzstatic.com/image/thumb/Music116/v4/42/c2/aa/42c2aaa0-07c3-7426-3aba-2b8636a7a8b0/075679783066.jpg/80x80bb.jpg"
                                     class="lazy" alt="Ocean Gold" title="Ocean Gold MP3 Download 320kbps"></a></div>
-                        <div class="tm-info"><a class="tm-title" href="https://songuber.co/mp3/Ocean-Gold"
+                        <div class="tm-info"><a class="tm-title" href="/mp3/Ocean-Gold"
                                 title="Ocean Gold MP3 Download 320kbps">Ocean Gold</a>
                             <ul class="tm-details">
-                                <li><span class="fas fa-user-crown"></span><a href="https://songuber.co/mp3/Nocap"
+                                <li><span class="fas fa-user-crown"></span><a href="/mp3/Nocap"
                                         title="Nocap MP3 Download 320kbps">Nocap</a></li>
                                 <li><span class="far fa-calendar-star"></span>9 months ago</li>
                             </ul>
                         </div>
                     </div>
                     <div class="top-music">
-                        <div class="tm-cover"><a href="https://songuber.co/mp3/Banking-On-Me"
+                        <div class="tm-cover"><a href="/mp3/Banking-On-Me"
                                 title="Banking On Me MP3 Download 320kbps"><img
                                     data-src="https://is4-ssl.mzstatic.com/image/thumb/Music116/v4/0a/51/d7/0a51d787-399d-5f22-d667-1e219755e7e8/850039440106.jpg/80x80bb.jpg"
                                     class="lazy" alt="Banking On Me" title="Banking On Me MP3 Download 320kbps"></a>
                         </div>
-                        <div class="tm-info"><a class="tm-title" href="https://songuber.co/mp3/Banking-On-Me"
+                        <div class="tm-info"><a class="tm-title" href="/mp3/Banking-On-Me"
                                 title="Banking On Me MP3 Download 320kbps">Banking On Me</a>
                             <ul class="tm-details">
-                                <li><span class="fas fa-user-crown"></span><a href="https://songuber.co/mp3/Gunna"
+                                <li><span class="fas fa-user-crown"></span><a href="/mp3/Gunna"
                                         title="Gunna MP3 Download 320kbps">Gunna</a></li>
                                 <li><span class="far fa-calendar-star"></span>1 year ago</li>
                             </ul>
                         </div>
                     </div>
                     <div class="top-music">
-                        <div class="tm-cover"><a href="https://songuber.co/mp3/Kiss-Me-More"
+                        <div class="tm-cover"><a href="/mp3/Kiss-Me-More"
                                 title="Kiss Me More MP3 Download 320kbps"><img
                                     data-src="https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/84/bb/4f/84bb4f76-20cb-7945-84be-af73777d42ac/886449138791.jpg/80x80bb.jpg"
                                     class="lazy" alt="Kiss Me More" title="Kiss Me More MP3 Download 320kbps"></a></div>
-                        <div class="tm-info"><a class="tm-title" href="https://songuber.co/mp3/Kiss-Me-More"
+                        <div class="tm-info"><a class="tm-title" href="/mp3/Kiss-Me-More"
                                 title="Kiss Me More MP3 Download 320kbps">Kiss Me More</a>
                             <ul class="tm-details">
-                                <li><span class="fas fa-user-crown"></span><a href="https://songuber.co/mp3/Doja-Cat"
+                                <li><span class="fas fa-user-crown"></span><a href="/mp3/Doja-Cat"
                                         title="Doja Cat MP3 Download 320kbps">Doja Cat</a></li>
                                 <li><span class="far fa-calendar-star"></span>1 year ago</li>
                             </ul>
                         </div>
                     </div>
                     <div class="top-music">
-                        <div class="tm-cover"><a href="https://songuber.co/mp3/Nevada"
+                        <div class="tm-cover"><a href="/mp3/Nevada"
                                 title="Nevada MP3 Download 320kbps"><img
                                     data-src="https://is3-ssl.mzstatic.com/image/thumb/Music115/v4/18/5d/1b/185d1b16-0799-4b26-4c3f-678ccfe58753/075679766922.jpg/80x80bb.jpg"
                                     class="lazy" alt="Nevada" title="Nevada MP3 Download 320kbps"></a></div>
-                        <div class="tm-info"><a class="tm-title" href="https://songuber.co/mp3/Nevada"
+                        <div class="tm-info"><a class="tm-title" href="/mp3/Nevada"
                                 title="Nevada MP3 Download 320kbps">Nevada</a>
                             <ul class="tm-details">
                                 <li><span class="fas fa-user-crown"></span><a
-                                        href="https://songuber.co/mp3/Youngboy-Never-Broke-Again"
+                                        href="/mp3/Youngboy-Never-Broke-Again"
                                         title="Youngboy Never Broke Again MP3 Download 320kbps">Youngboy Never Broke
                                         Again</a></li>
                                 <li><span class="far fa-calendar-star"></span>2 years ago</li>
@@ -2566,93 +2566,93 @@ export function template(data){
                         </div>
                     </div>
                     <div class="top-music">
-                        <div class="tm-cover"><a href="https://songuber.co/mp3/Thump-Shit"
+                        <div class="tm-cover"><a href="/mp3/Thump-Shit"
                                 title="Thump Shit MP3 Download 320kbps"><img
                                     data-src="https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/6c/08/18/6c08184c-61f2-6777-88d4-c08580e09205/22UMGIM33673.rgb.jpg/80x80bb.jpg"
                                     class="lazy" alt="Thump Shit" title="Thump Shit MP3 Download 320kbps"></a></div>
-                        <div class="tm-info"><a class="tm-title" href="https://songuber.co/mp3/Thump-Shit"
+                        <div class="tm-info"><a class="tm-title" href="/mp3/Thump-Shit"
                                 title="Thump Shit MP3 Download 320kbps">Thump Shit</a>
                             <ul class="tm-details">
-                                <li><span class="fas fa-user-crown"></span><a href="https://songuber.co/mp3/42-Dugg"
+                                <li><span class="fas fa-user-crown"></span><a href="/mp3/42-Dugg"
                                         title="42 Dugg MP3 Download 320kbps">42 Dugg</a> &amp; <a
-                                        href="https://songuber.co/mp3/Est-Gee" title="Est Gee MP3 Download 320kbps">Est
+                                        href="/mp3/Est-Gee" title="Est Gee MP3 Download 320kbps">Est
                                         Gee</a></li>
                                 <li><span class="far fa-calendar-star"></span>10 months ago</li>
                             </ul>
                         </div>
                     </div>
                     <div class="top-music">
-                        <div class="tm-cover"><a href="https://songuber.co/mp3/Flags-To-The-Sky"
+                        <div class="tm-cover"><a href="/mp3/Flags-To-The-Sky"
                                 title="Flags To The Sky MP3 Download 320kbps"><img
                                     data-src="https://is2-ssl.mzstatic.com/image/thumb/Music116/v4/42/c2/aa/42c2aaa0-07c3-7426-3aba-2b8636a7a8b0/075679783066.jpg/80x80bb.jpg"
                                     class="lazy" alt="Flags To The Sky"
                                     title="Flags To The Sky MP3 Download 320kbps"></a></div>
-                        <div class="tm-info"><a class="tm-title" href="https://songuber.co/mp3/Flags-To-The-Sky"
+                        <div class="tm-info"><a class="tm-title" href="/mp3/Flags-To-The-Sky"
                                 title="Flags To The Sky MP3 Download 320kbps">Flags To The Sky</a>
                             <ul class="tm-details">
-                                <li><span class="fas fa-user-crown"></span><a href="https://songuber.co/mp3/Nocap"
+                                <li><span class="fas fa-user-crown"></span><a href="/mp3/Nocap"
                                         title="Nocap MP3 Download 320kbps">Nocap</a></li>
                                 <li><span class="far fa-calendar-star"></span>9 months ago</li>
                             </ul>
                         </div>
                     </div>
                     <div class="top-music">
-                        <div class="tm-cover"><a href="https://songuber.co/mp3/Wants-And-Needs"
+                        <div class="tm-cover"><a href="/mp3/Wants-And-Needs"
                                 title="Wants And Needs MP3 Download 320kbps"><img
                                     data-src="https://is4-ssl.mzstatic.com/image/thumb/Music125/v4/63/2a/34/632a3488-d104-3ff1-dc02-4ed86f58ed05/21UMGIM18577.rgb.jpg/80x80bb.jpg"
                                     class="lazy" alt="Wants and Needs" title="Wants And Needs MP3 Download 320kbps"></a>
                         </div>
-                        <div class="tm-info"><a class="tm-title" href="https://songuber.co/mp3/Wants-And-Needs"
+                        <div class="tm-info"><a class="tm-title" href="/mp3/Wants-And-Needs"
                                 title="Wants And Needs MP3 Download 320kbps">Wants and Needs</a>
                             <ul class="tm-details">
-                                <li><span class="fas fa-user-crown"></span><a href="https://songuber.co/mp3/Drake"
+                                <li><span class="fas fa-user-crown"></span><a href="/mp3/Drake"
                                         title="Drake MP3 Download 320kbps">Drake</a></li>
                                 <li><span class="far fa-calendar-star"></span>1 year ago</li>
                             </ul>
                         </div>
                     </div>
                     <div class="top-music">
-                        <div class="tm-cover"><a href="https://songuber.co/mp3/Massaging-Me"
+                        <div class="tm-cover"><a href="/mp3/Massaging-Me"
                                 title="Massaging Me MP3 Download 320kbps"><img
                                     data-src="https://is4-ssl.mzstatic.com/image/thumb/Music122/v4/65/f2/06/65f2067b-a8ea-239c-c219-8e0f0282dcea/196589073693.jpg/80x80bb.jpg"
                                     class="lazy" alt="MASSAGING ME" title="Massaging Me MP3 Download 320kbps"></a></div>
-                        <div class="tm-info"><a class="tm-title" href="https://songuber.co/mp3/Massaging-Me"
+                        <div class="tm-info"><a class="tm-title" href="/mp3/Massaging-Me"
                                 title="Massaging Me MP3 Download 320kbps">MASSAGING ME</a>
                             <ul class="tm-details">
-                                <li><span class="fas fa-user-crown"></span><a href="https://songuber.co/mp3/Future"
+                                <li><span class="fas fa-user-crown"></span><a href="/mp3/Future"
                                         title="Future MP3 Download 320kbps">Future</a></li>
                                 <li><span class="far fa-calendar-star"></span>9 months ago</li>
                             </ul>
                         </div>
                     </div>
                     <div class="top-music">
-                        <div class="tm-cover"><a href="https://songuber.co/mp3/Wait-A-Minute"
+                        <div class="tm-cover"><a href="/mp3/Wait-A-Minute"
                                 title="Wait A Minute! MP3 Download 320kbps"><img
                                     data-src="https://is3-ssl.mzstatic.com/image/thumb/Music115/v4/de/9f/34/de9f3425-74fc-dc5b-5288-63d4755650e8/00854078006309.rgb.jpg/80x80bb.jpg"
                                     class="lazy" alt="Wait a Minute!" title="Wait A Minute! MP3 Download 320kbps"></a>
                         </div>
-                        <div class="tm-info"><a class="tm-title" href="https://songuber.co/mp3/Wait-A-Minute"
+                        <div class="tm-info"><a class="tm-title" href="/mp3/Wait-A-Minute"
                                 title="Wait A Minute! MP3 Download 320kbps">Wait a Minute!</a>
                             <ul class="tm-details">
-                                <li><span class="fas fa-user-crown"></span><a href="https://songuber.co/mp3/Willow"
+                                <li><span class="fas fa-user-crown"></span><a href="/mp3/Willow"
                                         title="Willow MP3 Download 320kbps">Willow</a></li>
                                 <li><span class="far fa-calendar-star"></span>7 years ago</li>
                             </ul>
                         </div>
                     </div>
                     <div class="top-music">
-                        <div class="tm-cover"><a href="https://songuber.co/mp3/Whats-My-Name"
+                        <div class="tm-cover"><a href="/mp3/Whats-My-Name"
                                 title="What&#039;s My Name MP3 Download 320kbps"><img
                                     data-src="https://is4-ssl.mzstatic.com/image/thumb/Music112/v4/66/a0/fd/66a0fdf7-8b80-06cb-06d1-84b2ccee2765/196589062345.jpg/80x80bb.jpg"
                                     class="lazy" alt="What&#039;s My Name"
                                     title="What&#039;s My Name MP3 Download 320kbps"></a></div>
-                        <div class="tm-info"><a class="tm-title" href="https://songuber.co/mp3/Whats-My-Name"
+                        <div class="tm-info"><a class="tm-title" href="/mp3/Whats-My-Name"
                                 title="What&#039;s My Name MP3 Download 320kbps">What&#039;s My Name</a>
                             <ul class="tm-details">
                                 <li><span class="fas fa-user-crown"></span><a
-                                        href="https://songuber.co/mp3/Fivio-Foreign"
+                                        href="/mp3/Fivio-Foreign"
                                         title="Fivio Foreign MP3 Download 320kbps">Fivio Foreign</a> &amp; <a
-                                        href="https://songuber.co/mp3/Queen-Naija"
+                                        href="/mp3/Queen-Naija"
                                         title="Queen Naija MP3 Download 320kbps">Queen Naija</a></li>
                                 <li><span class="far fa-calendar-star"></span>10 months ago</li>
                             </ul>
@@ -2750,17 +2750,17 @@ export function template(data){
     <div class="footer">
         <div class="layout">
             <div class="brand">
-                <div class="logo"><a href="https://songuber.co/"
+                <div class="logo"><a href="/"
                         title="Song Uber - Search and download your favorite music songs" class="logo-font"
                         rel="nofollow">Song Uber</a></div>
                 <div class="copyright"> &copy; 2023. All Rights Reserved </div>
             </div>
             <ul class="menu">
-                <li><a href="https://songuber.co/terms" title="Song Uber - Terms Of Service" rel="nofollow"> Terms Of
+                <li><a href="/terms" title="Song Uber - Terms Of Service" rel="nofollow"> Terms Of
                         Service </a></li>
-                <li><a href="https://songuber.co/copyright" title="Song Uber - Copyright" rel="nofollow"> Copyright
+                <li><a href="/copyright" title="Song Uber - Copyright" rel="nofollow"> Copyright
                     </a></li>
-                <li><a href="https://songuber.co/contact" title="Contact Song Uber" rel="nofollow"> Contact </a></li>
+                <li><a href="/contact" title="Contact Song Uber" rel="nofollow"> Contact </a></li>
             </ul>
         </div>
     </div>
