@@ -29,7 +29,7 @@ try {
     for(var i=0; i<e.length; i++)
         {
                var id = e[i].id;
-               var nid = e[i].nId;
+               var nId = e[i].nId;
                var firstId = e[0].nId;       
                var title = e[i].title;
                var firstTitle= e[0].title;
