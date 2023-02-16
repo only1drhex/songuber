@@ -50,7 +50,7 @@ content +=
 
                         <div class="mf-image">
                             <div class="mf-ibg mcover"></div>
-                            <div class="lazy-thumbs" data-image="${nId}"
+                            <div class="lazy-thumbs" data-image="${thumb}"
                                 data-title="${title}"></div>
                         </div>
                         <div class="mf-details">
@@ -59,6 +59,7 @@ content +=
                                 <ul class="mf-info">
                                     <li><span class="fas fa-user-crown"></span>...</li>
                                     <li><span class="far fa-calendar-star"></span>..</li>
+                                    <li><span class="fas fa-play"></span>${count}</li>
                                 </ul>
                                 <div class="mf-desc">... </div>
                                 <div class="music-player"></div>
