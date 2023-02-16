@@ -29,6 +29,7 @@ try {
     for(var i=0; i<e.length; i++)
         {
                var id = e[i].id;
+               var fIdd = e[0].id;
                var nId = e[i].nId;
                var firstId = e[0].nId;       
                var title = e[i].title;
@@ -92,7 +93,7 @@ content +=
    var titleRI = decodeURI(query).replace(/ +/g,"-");
    var randy = Math.random()
    var webx = context.request.url.split("/")[2]
-   var obj = {webx: webx, "randy": randy, "fId":firstId, fTitle: firstTitle, fP:fP, "query": decodeURIComponent(query),"title": decodeURIComponent(title), "ogTitle": decodeURIComponent(title), "thumbnail": thumbnail, "description": decodeURIComponent(description),"keywords": decodeURIComponent(keyword),"titleRI": decodeURIComponent(titleRI), "content": content}
+   var obj = {webx: webx, "randy": randy, "fId":firstId,fIdd: fIdd, fTitle: firstTitle, fP:fP, "query": decodeURIComponent(query),"title": decodeURIComponent(title), "ogTitle": decodeURIComponent(title), "thumbnail": thumbnail, "description": decodeURIComponent(description),"keywords": decodeURIComponent(keyword),"titleRI": decodeURIComponent(titleRI), "content": content}
    var html = template(obj)
   
   
