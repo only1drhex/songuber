@@ -34,6 +34,262 @@ export function template(data){
     <meta name="msapplication-config" content="/favicons/browserconfig.xml">
     <meta name="theme-color" content="#ffffff">
     <link rel="manifest" href="/pwa-v5.webmanifest">
+<link rel="stylesheet"
+        href="https://fonts.googleapis.com/css?display=swap&family=Open+Sans:300,400,600|Roboto:300,400,500|Sriracha|Comfortaa:400">
+<style>
+        @font-face {
+            font-display: swap;
+            font-family: 'icomoon';
+            src: url('/icomoon.ttf') format('truetype'), url('icomoon.woff') format('woff'), url('icomoon.svg') format('svg');
+            font-weight: normal;
+            font-style: normal
+        }
+
+        [class^="fa"],
+        [class*=" fa"] {
+            font-family: 'icomoon' !important;
+            speak: none;
+            font-style: normal;
+            font-weight: normal;
+            font-variant: normal;
+            text-transform: none;
+            line-height: 1;
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale
+        }
+
+        .fas.fa-volume-up:before {
+            content: "\e900"
+        }
+
+        .fab.fa-facebook-f:before {
+            content: "\e901"
+        }
+
+        .fab.fa-google-plus-g:before {
+            content: "\e902"
+        }
+
+        .fab.fa-twitter:before {
+            content: "\e903"
+        }
+
+        .fab.fa-whatsapp:before {
+            content: "\e904"
+        }
+
+        .far.fa-calendar-star:before {
+            content: "\e905"
+        }
+
+        .far.fa-star:before {
+            content: "\e906"
+        }
+
+        .fas.fa-circle:before {
+            content: "\e907"
+        }
+
+        .fas.fa-download:before {
+            content: "\e908"
+        }
+
+        .fas.fa-paper-plane:before {
+            content: "\e909"
+        }
+
+        .fas.fa-pause:before {
+            content: "\e90a"
+        }
+
+        .fas.fa-play:before {
+            content: "\e90b"
+        }
+
+        .fas.fa-search:before {
+            content: "\e90c"
+        }
+
+        .fas.fa-spinner-third:before {
+            content: "\e90d"
+        }
+
+        .fas.fa-star:before {
+            content: "\e90e"
+        }
+
+        .fas.fa-star-half-alt:before {
+            content: "\e90f"
+        }
+
+        .fas.fa-sync-alt:before {
+            content: "\e910"
+        }
+
+        .fas.fa-undo:before {
+            content: "\e911"
+        }
+
+        .fas.fa-user-crown:before {
+            content: "\e912"
+        }
+
+        .fas.fa-volume:before {
+            content: "\e913"
+        }
+
+        .fas.fa-volume-down:before {
+            content: "\e914"
+        }
+
+        .fas.fa-volume-mute:before {
+            content: "\e915"
+        }
+
+        .ui-helper-hidden {
+            display: none
+        }
+
+        .ui-helper-hidden-accessible {
+            border: 0;
+            clip: rect(0 0 0 0);
+            height: 1px;
+            margin: -1px;
+            overflow: hidden;
+            padding: 0;
+            position: absolute;
+            width: 1px
+        }
+
+        .ui-helper-reset {
+            margin: 0;
+            padding: 0;
+            border: 0;
+            outline: 0;
+            line-height: 1.3;
+            text-decoration: none;
+            font-size: 100%;
+            list-style: none
+        }
+
+        .ui-helper-clearfix:before,
+        .ui-helper-clearfix:after {
+            content: "";
+            display: table;
+            border-collapse: collapse
+        }
+
+        .ui-helper-clearfix:after {
+            clear: both
+        }
+
+        .ui-helper-zfix {
+            width: 100%;
+            height: 100%;
+            top: 0;
+            left: 0;
+            position: absolute;
+            opacity: 0;
+            filter: Alpha(Opacity=0)
+        }
+
+        .ui-front {
+            z-index: 100
+        }
+
+        .ui-state-disabled {
+            cursor: default !important;
+            pointer-events: none
+        }
+
+        .ui-icon {
+            display: inline-block;
+            vertical-align: middle;
+            margin-top: -.25em;
+            position: relative;
+            text-indent: -99999px;
+            overflow: hidden;
+            background-repeat: no-repeat
+        }
+
+        .ui-widget-icon-block {
+            left: 50%;
+            margin-left: -8px;
+            display: block
+        }
+
+        .ui-widget-overlay {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%
+        }
+
+        .ui-autocomplete {
+            position: absolute;
+            top: 0;
+            left: 0;
+            cursor: default
+        }
+
+        .ui-menu {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: block;
+            outline: 0
+        }
+
+        .ui-menu .ui-menu {
+            position: absolute
+        }
+
+        .ui-menu .ui-menu-item {
+            margin: 0;
+            cursor: pointer;
+            list-style-image: url("data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7")
+        }
+
+        .ui-menu .ui-menu-item-wrapper {
+            position: relative;
+            padding: 3px 1em 3px .4em
+        }
+
+        .ui-menu .ui-menu-divider {
+            margin: 5px 0;
+            height: 0;
+            font-size: 0;
+            line-height: 0;
+            border-width: 1px 0 0 0
+        }
+
+        .ui-menu .ui-state-focus,
+        .ui-menu .ui-state-active {
+            margin: -1px
+        }
+
+        .ui-menu-icons {
+            position: relative
+        }
+
+        .ui-menu-icons .ui-menu-item-wrapper {
+            padding-left: 2em
+        }
+
+        .ui-menu .ui-icon {
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            left: .2em;
+            margin: auto 0
+        }
+
+        .ui-menu .ui-menu-icon {
+            left: auto;
+            right: 0
+        }
+    </style>
     <style>
         .fa-flip-horizontal {
             transform: scaleX(-1)
@@ -2577,262 +2833,8 @@ export function template(data){
             </div>
         </div>
     </div>
-    <style>
-        @font-face {
-            font-display: swap;
-            font-family: 'icomoon';
-            src: url('https://songuber.pages.dev/icomoon.ttf') format('truetype'), url('icomoon.woff') format('woff'), url('icomoon.svg') format('svg');
-            font-weight: normal;
-            font-style: normal
-        }
-
-        [class^="fa"],
-        [class*=" fa"] {
-            font-family: 'icomoon' !important;
-            speak: none;
-            font-style: normal;
-            font-weight: normal;
-            font-variant: normal;
-            text-transform: none;
-            line-height: 1;
-            -webkit-font-smoothing: antialiased;
-            -moz-osx-font-smoothing: grayscale
-        }
-
-        .fas.fa-volume-up:before {
-            content: "\e900"
-        }
-
-        .fab.fa-facebook-f:before {
-            content: "\e901"
-        }
-
-        .fab.fa-google-plus-g:before {
-            content: "\e902"
-        }
-
-        .fab.fa-twitter:before {
-            content: "\e903"
-        }
-
-        .fab.fa-whatsapp:before {
-            content: "\e904"
-        }
-
-        .far.fa-calendar-star:before {
-            content: "\e905"
-        }
-
-        .far.fa-star:before {
-            content: "\e906"
-        }
-
-        .fas.fa-circle:before {
-            content: "\e907"
-        }
-
-        .fas.fa-download:before {
-            content: "\e908"
-        }
-
-        .fas.fa-paper-plane:before {
-            content: "\e909"
-        }
-
-        .fas.fa-pause:before {
-            content: "\e90a"
-        }
-
-        .fas.fa-play:before {
-            content: "\e90b"
-        }
-
-        .fas.fa-search:before {
-            content: "\e90c"
-        }
-
-        .fas.fa-spinner-third:before {
-            content: "\e90d"
-        }
-
-        .fas.fa-star:before {
-            content: "\e90e"
-        }
-
-        .fas.fa-star-half-alt:before {
-            content: "\e90f"
-        }
-
-        .fas.fa-sync-alt:before {
-            content: "\e910"
-        }
-
-        .fas.fa-undo:before {
-            content: "\e911"
-        }
-
-        .fas.fa-user-crown:before {
-            content: "\e912"
-        }
-
-        .fas.fa-volume:before {
-            content: "\e913"
-        }
-
-        .fas.fa-volume-down:before {
-            content: "\e914"
-        }
-
-        .fas.fa-volume-mute:before {
-            content: "\e915"
-        }
-
-        .ui-helper-hidden {
-            display: none
-        }
-
-        .ui-helper-hidden-accessible {
-            border: 0;
-            clip: rect(0 0 0 0);
-            height: 1px;
-            margin: -1px;
-            overflow: hidden;
-            padding: 0;
-            position: absolute;
-            width: 1px
-        }
-
-        .ui-helper-reset {
-            margin: 0;
-            padding: 0;
-            border: 0;
-            outline: 0;
-            line-height: 1.3;
-            text-decoration: none;
-            font-size: 100%;
-            list-style: none
-        }
-
-        .ui-helper-clearfix:before,
-        .ui-helper-clearfix:after {
-            content: "";
-            display: table;
-            border-collapse: collapse
-        }
-
-        .ui-helper-clearfix:after {
-            clear: both
-        }
-
-        .ui-helper-zfix {
-            width: 100%;
-            height: 100%;
-            top: 0;
-            left: 0;
-            position: absolute;
-            opacity: 0;
-            filter: Alpha(Opacity=0)
-        }
-
-        .ui-front {
-            z-index: 100
-        }
-
-        .ui-state-disabled {
-            cursor: default !important;
-            pointer-events: none
-        }
-
-        .ui-icon {
-            display: inline-block;
-            vertical-align: middle;
-            margin-top: -.25em;
-            position: relative;
-            text-indent: -99999px;
-            overflow: hidden;
-            background-repeat: no-repeat
-        }
-
-        .ui-widget-icon-block {
-            left: 50%;
-            margin-left: -8px;
-            display: block
-        }
-
-        .ui-widget-overlay {
-            position: fixed;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%
-        }
-
-        .ui-autocomplete {
-            position: absolute;
-            top: 0;
-            left: 0;
-            cursor: default
-        }
-
-        .ui-menu {
-            list-style: none;
-            padding: 0;
-            margin: 0;
-            display: block;
-            outline: 0
-        }
-
-        .ui-menu .ui-menu {
-            position: absolute
-        }
-
-        .ui-menu .ui-menu-item {
-            margin: 0;
-            cursor: pointer;
-            list-style-image: url("data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7")
-        }
-
-        .ui-menu .ui-menu-item-wrapper {
-            position: relative;
-            padding: 3px 1em 3px .4em
-        }
-
-        .ui-menu .ui-menu-divider {
-            margin: 5px 0;
-            height: 0;
-            font-size: 0;
-            line-height: 0;
-            border-width: 1px 0 0 0
-        }
-
-        .ui-menu .ui-state-focus,
-        .ui-menu .ui-state-active {
-            margin: -1px
-        }
-
-        .ui-menu-icons {
-            position: relative
-        }
-
-        .ui-menu-icons .ui-menu-item-wrapper {
-            padding-left: 2em
-        }
-
-        .ui-menu .ui-icon {
-            position: absolute;
-            top: 0;
-            bottom: 0;
-            left: .2em;
-            margin: auto 0
-        }
-
-        .ui-menu .ui-menu-icon {
-            left: auto;
-            right: 0
-        }
-    </style>
-    <link rel="stylesheet"
-        href="https://fonts.googleapis.com/css?display=swap&family=Open+Sans:300,400,600|Roboto:300,400,500|Sriracha|Comfortaa:400">
+    
+    
 </body>
 
 </html>
