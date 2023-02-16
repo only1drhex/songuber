@@ -40,7 +40,7 @@ export function template(data){
         @font-face {
             font-display: swap;
             font-family: 'icomoon';
-            src: url('/icomoon.ttf') format('truetype'), url('icomoon.woff') format('woff'), url('icomoon.svg') format('svg');
+            src: url('https://songuber.pages.dev/icomoon.ttf') format('truetype'), url('icomoon.woff') format('woff'), url('icomoon.svg') format('svg');
             font-weight: normal;
             font-style: normal
         }
@@ -2439,7 +2439,7 @@ export function template(data){
         </div>
         <div class="header">
             <div class="layout"><a class="logo" href="https://songuber.co/"
-                    title="MP3 Quack - Search and download your favorite music songs"><span
+                    title="Song Uber - Search and download your favorite music songs"><span
                         class="logo-text logo-font">Song Uber</span></a>
                 <div class="search"><input type="text" id="searchInput" placeholder="Search your favorite music..."
                         spellcheck="false"><span class="bg"></span><span id="searchSubmit"><span
@@ -2455,7 +2455,7 @@ export function template(data){
                 </div>
                 <div class="music-details" data-media="${data.fId}">
                     <div class="mdetails-info">
-                        <h1>Yo <span class="mp3-dl">MP3 Free Download</span></h1>
+                        <h1>${data.fTitle} <span class="mp3-dl">MP3 Free Download</span></h1>
                         <ul class="music-info">
                             <li class="music-rate"><span class="rate-wait"><span class="fas fa-star"></span><span
                                         class="fas fa-star"></span><span class="fas fa-star"></span><span
@@ -2790,16 +2790,16 @@ export function template(data){
         <div class="layout">
             <div class="brand">
                 <div class="logo"><a href="https://songuber.co/"
-                        title="MP3 Quack - Search and download your favorite music songs" class="logo-font"
-                        rel="nofollow">MP3 Quack</a></div>
+                        title="Song Uber - Search and download your favorite music songs" class="logo-font"
+                        rel="nofollow">Song Uber</a></div>
                 <div class="copyright"> &copy; 2023. All Rights Reserved </div>
             </div>
             <ul class="menu">
-                <li><a href="https://songuber.co/terms" title="MP3 Quack - Terms Of Service" rel="nofollow"> Terms Of
+                <li><a href="https://songuber.co/terms" title="Song Uber - Terms Of Service" rel="nofollow"> Terms Of
                         Service </a></li>
-                <li><a href="https://songuber.co/copyright" title="MP3 Quack - Copyright" rel="nofollow"> Copyright
+                <li><a href="https://songuber.co/copyright" title="Song Uber - Copyright" rel="nofollow"> Copyright
                     </a></li>
-                <li><a href="https://songuber.co/contact" title="Contact MP3 Quack" rel="nofollow"> Contact </a></li>
+                <li><a href="https://songuber.co/contact" title="Contact Song Uber" rel="nofollow"> Contact </a></li>
             </ul>
         </div>
     </div>
