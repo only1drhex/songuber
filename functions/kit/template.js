@@ -40,7 +40,7 @@ export function template(data){
         @font-face {
             font-display: swap;
             font-family: 'icomoon';
-            src: url('https://songuber.pages.dev/icomoon.ttf') format('truetype'), url('icomoon.woff') format('woff'), url('icomoon.svg') format('svg');
+            src: url('../icomoon.ttf') format('truetype'), url('icomoon.woff') format('woff'), url('icomoon.svg') format('svg');
             font-weight: normal;
             font-style: normal
         }
