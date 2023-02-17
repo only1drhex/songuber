@@ -1,5 +1,5 @@
 
-var words  = require("./lib.js")
+var words  = require("./test.js")
 
 
 export async function onRequestGet(context){
