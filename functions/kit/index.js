@@ -5,8 +5,8 @@ var words  = require("./test.js")
 export async function onRequestGet(context){
 
 
-
-    return new Response(words.length, { headers : {"content-type": "text/html;charset-UTF=8"} });
+var o = words.length + words[0]
+    return new Response(e, { headers : {"content-type": "text/html;charset-UTF=8"} });
 
 
 }
