@@ -1,5 +1,5 @@
 
-var words = require("./words.json")
+var { words } = require("./words.js")
 
 
 export async function onRequestGet(context){
