@@ -2460,8 +2460,8 @@ export function template(data){
                             <li class="music-rate"><span class="rate-wait"><span class="fas fa-star"></span><span
                                         class="fas fa-star"></span><span class="fas fa-star"></span><span
                                         class="fas fa-star"></span><span class="fas fa-star"></span></span></li>
-                            <li><span class="fas fa-user-crown"></span>...</li>
-                            <li><span class="far fa-calendar-star"></span>...</li>
+                            <li><span class="fas fa-user-crown"></span></li>
+                            <li><span class="far fa-calendar-star"></span></li>
                             <li><span class="fas fa-play"></span>${data.fP}</li>
 
                         </ul>

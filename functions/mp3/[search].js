@@ -56,11 +56,11 @@ content +=
                             <div class="mf-content">
                                 <h3>${title}</h3>
                                 <ul class="mf-info">
-                                    <li><span class="fas fa-user-crown"></span>...</li>
-                                    <li><span class="far fa-calendar-star"></span>..</li>
+                                    <li><span class="fas fa-user-crown"></span></li>
+                                    <li><span class="far fa-calendar-star"></span></li>
                                     <li><span class="fas fa-play"></span>${count}</li>
                                 </ul>
-                                <div class="mf-desc">... </div>
+                                <div class="mf-desc"> </div>
                                 <div class="music-player"></div>
                             </div>
                             <ul class="mf-actions">
