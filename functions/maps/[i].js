@@ -17,15 +17,15 @@ if(path == 1){
 }
 
 else if(path == 2){
-    word = word.slice(49999,100000)
+    word = word.slice(50000,100000)
 }
 
 else if(path == 3){
-    word = word.slice(99999,150000) 
+    word = word.slice(100000,150000) 
 }
 
 else if (path == 4){
-    word = word.slice(149999)
+    word = word.slice(150000)
 }
 
 for(var i=0;i<word.length;i++){
