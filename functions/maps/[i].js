@@ -22,8 +22,8 @@ map += `
 }
 
 
-var final = `
-${sitemap}
+var final =
+`${sitemap}
 ${map}
 </urlset>
 `
