@@ -2,7 +2,9 @@ var words = require("../kit/lib")
 
 
 export async function onRequestGet(context){
-    var word = words()
+    try{
+        
+        var word = words()
     var map = ""
     var lastmod = '<lastmod>' + new Date().toISOString() + '</lastmod>'
     var sitemap = `<?xml version="1.0" encoding="UTF-8"?>
@@ -27,7 +29,15 @@ ${map}
 `
 return new Response(final, { headers : {"content-type": "application/xml"} });
 
+    }
 
+
+    catch(err){
+
+
+        return new Response(err.message + err.stack, { headers : {"content-type": "text/html;charset-UTF=8"} });
+
+    }
 
 
 
