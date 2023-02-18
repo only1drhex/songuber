@@ -32,7 +32,7 @@ for(var i=0;i<word.length;i++){
     var entry = word[i]
 map += `
     <url>
-    <loc>https://songuber.com/${entry}</loc>
+    <loc>https://songuber.com/mp3/${entry}</loc>
     ${lastmod}
     </url>
 ` 
