@@ -38,6 +38,7 @@ try {
                var value = e[i].views;
                var count = value + " Streams.";
                var fP = e[0].views + " Streams."; 
+               var time = e[i].time;
               
          thmb.push(thumb)
          dsp.push(title)
@@ -57,7 +58,7 @@ content +=
                                 <h3>${title}</h3>
                                 <ul class="mf-info">
                                     <li><span class="fas fa-user-crown"></span></li>
-                                    <li><span class="far fa-calendar-star"></span></li>
+                                    <li><span class="far fa-calendar-star"></span>${time}</li>
                                     <li><span class="fas fa-play"></span>${count}</li>
                                 </ul>
                                 <div class="mf-desc"> </div>
