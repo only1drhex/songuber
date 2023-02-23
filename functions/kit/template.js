@@ -13,7 +13,7 @@ export function template(data){
     <meta property="og:description"
         content="${data.query} MP3 Download. Download ${data.query} mp3 file at 320kbps audio quality." />
     <meta name="keywords"
-        content="Song Ubuer, ${data.query}, mp3 download, music download, song download, 320kbps mp3, 320kbps music, mp3 music, free mp3, free music, " />
+        content="Song Uber, ${data.query}, mp3 download, music download, song download, 320kbps mp3, 320kbps music, mp3 music, free mp3, free music, " />
     <link rel="canonical" href="${data.webx}/mp3/${data.query}" />
     <meta property="og:url" content="${data.webx}/mp3/${data.query}" />
     <meta property="og:image" content="${data.thumbnail}" />
@@ -2458,8 +2458,8 @@ export function template(data){
                             <li class="music-rate"><span class="rate-wait"><span class="fas fa-star"></span><span
                                         class="fas fa-star"></span><span class="fas fa-star"></span><span
                                         class="fas fa-star"></span><span class="fas fa-star"></span></span></li>
-                            <li><span class="fas fa-user-crown"></span></li>
-                            <li><span class="far fa-calendar-star"></span></li>
+                            <li><span class="fas"></span></li>
+                            <li><span class="far"></span></li>
                             <li><span class="fas fa-play"></span>${data.fP}</li>
 
                         </ul>

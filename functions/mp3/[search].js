@@ -36,6 +36,7 @@ try {
                var firstTitle= e[0].title;
                var thumb = `https://i.ytimg.com/vi/${nId}/mqdefault.jpg`;
                var value = e[i].views;
+               var fCount = e[0].views;
                var count = value + " Streams.";
                var fP = e[0].views + " Streams."; 
                var time = e[i].time;
@@ -57,8 +58,8 @@ content +=
                             <div class="mf-content">
                                 <h3>${title}</h3>
                                 <ul class="mf-info">
-                                    <li><span class="fas fa-user-crown"></span></li>
-                                    <li><span class="far fa-calendar-star"></span>${time}</li>
+                                    <li><span class="fas"></span></li>
+                                    <li><span class="far"></span>${time}</li>
                                     <li><span class="fas fa-play"></span>${count}</li>
                                 </ul>
                                 <div class="mf-desc"> </div>
