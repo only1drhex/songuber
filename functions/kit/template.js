@@ -34,6 +34,14 @@ export function template(data){
     <meta name="msapplication-config" content="/favicons/browserconfig.xml">
     <meta name="theme-color" content="#ffffff">
     <link rel="manifest" href="/pwa-v5.webmanifest">
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-G3K1EF4KPE"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-G3K1EF4KPE');
+</script>
 <link rel="stylesheet"
         href="https://fonts.googleapis.com/css?display=swap&family=Open+Sans:300,400,600|Roboto:300,400,500|Sriracha|Comfortaa:400">
 <style>
