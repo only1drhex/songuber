@@ -32,7 +32,7 @@ for(var i=0;i<word.length;i++){
     var entry = word[i]
 map += `
     <url>
-    <loc>https://${webx}/mp3/${entry}</loc>
+    <loc>${webx}/mp3/${entry}</loc>
     ${lastmod}
     </url>
 ` 
