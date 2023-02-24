@@ -15,11 +15,11 @@ export function template(data){
     <meta name="keywords"
         content="Song Uber, ${data.query}, mp3 download, music download, song download, 320kbps mp3, 320kbps music, mp3 music, free mp3, free music, " />
     <link rel="canonical" href="${data.webx}/mp3/${data.query}" />
-    <meta property="og:url" content="${data.webx}/mp3/${data.query}" />
+    <meta property="og:url" content="https://${data.webx}/mp3/${data.query}" />
     <meta property="og:image" content="${data.thumbnail}" />
     <meta charset="UTF-8" />
     <meta property="og:type" content="website" />
-    <link rel="preconnect" href="${data.webx}">
+    <link rel="preconnect" href="https://${data.webx}">
     <link rel="preconnect" href="https://www.google-analytics.com">
     <link rel="preconnect" href="https://www.googletagmanager.com">
     <link rel="preconnect" href="https://fonts.googleapis.com">
