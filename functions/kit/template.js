@@ -14,7 +14,7 @@ export function template(data){
         content="${data.query} MP3 Download. Download ${data.query} mp3 file at 320kbps audio quality." />
     <meta name="keywords"
         content="Song Uber, ${data.query}, mp3 download, music download, song download, 320kbps mp3, 320kbps music, mp3 music, free mp3, free music, " />
-    <link rel="canonical" href="${data.webx}/mp3/${data.query}" />
+    <link rel="canonical" href="https://${data.webx}/mp3/${data.query}" />
     <meta property="og:url" content="https://${data.webx}/mp3/${data.query}" />
     <meta property="og:image" content="${data.thumbnail}" />
     <meta charset="UTF-8" />
