@@ -2467,7 +2467,7 @@ export function template(data){
                                         class="fas fa-star"></span><span class="fas fa-star"></span><span
                                         class="fas fa-star"></span><span class="fas fa-star"></span></span></li>
                             <li><span class="fas"></span></li>
-                            <li><span class="far"></span></li>
+                            <li><span class="far"></span>${data.fTime}</li>
                             <li><span class="fas fa-play"></span>${data.fP}</li>
 
                         </ul>

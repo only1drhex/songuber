@@ -36,7 +36,7 @@ try {
                var firstTitle= e[0].title;
                var thumb = `https://i.ytimg.com/vi/${nId}/mqdefault.jpg`;
                var value = e[i].views;
-               var fCount = e[0].views;
+               var fTime = e[0].time;
                var count = value + " Streams.";
                var fP = e[0].views + " Streams."; 
                var time = e[i].time;
@@ -95,7 +95,7 @@ content +=
    var titleRI = decodeURI(query).replace(/ +/g,"-");
    var randy = Math.random()
    var webx = context.request.url.split("/")[2]
-   var obj = {webx: webx, "randy": randy, "fId":firstId,fIdd: fIdd, fTitle: firstTitle, fP:fP, "query": decodeURIComponent(query),"title": decodeURIComponent(title), "ogTitle": decodeURIComponent(title), "thumbnail": thumbnail, "description": decodeURIComponent(description),"keywords": decodeURIComponent(keyword),"titleRI": decodeURIComponent(titleRI), "content": content}
+   var obj = {webx: webx, "randy": randy, "fId":firstId,fIdd: fIdd, fTitle: firstTitle,fTime:fTime, fP:fP, "query": decodeURIComponent(query),"title": decodeURIComponent(title), "ogTitle": decodeURIComponent(title), "thumbnail": thumbnail, "description": decodeURIComponent(description),"keywords": decodeURIComponent(keyword),"titleRI": decodeURIComponent(titleRI), "content": content}
    var html = template(obj)
   
   
