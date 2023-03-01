@@ -7,7 +7,7 @@ export function template(data){
 
 <head>
     <title> ${data.query} MP3 Download 320kbps</title>
-    <meta property="og:title" content=" ${data.query} MP3 Download 320kbps" />
+    <meta property="og:title" content=" ${data.query} MP3 Download" />
     <meta name="description"
         content="${data.query} MP3 Download. Download ${data.query} mp3 file at 320kbps audio quality." />
     <meta property="og:description"
@@ -2441,13 +2441,13 @@ export function template(data){
 <body>
     <div class="leading">
         <div class="background">
-            <div data-image="${data.thumbnail.replace('mqdefault','maxresdefault')}" data-title="Yo"></div>
+            <div data-image="${data.thumbnail.replace('mqdefault','sddefault')}" data-title="Yo"></div>
         </div>
         <div class="header">
             <div class="layout"><a class="logo" href="/"
                     title="Song Uber - Search and download your favorite music songs"><span
                         class="logo-text logo-font">Song Uber</span></a>
-                <div class="search"><input type="text" id="searchInput" placeholder="Search your favorite music..."
+                <div class="search"><input type="text" id="searchInput" placeholder="${data.query}"
                         spellcheck="false"><span class="bg"></span><span id="searchSubmit"><span
                             class="fas fa-search"></span></span></div>
             </div>
