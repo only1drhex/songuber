@@ -2447,7 +2447,7 @@ export function template(data){
             <div class="layout"><a class="logo" href="/"
                     title="Song Uber - Search and download your favorite music songs"><span
                         class="logo-text logo-font">Song Uber</span></a>
-                <div class="search"><input type="text" id="searchInput" placeholder="${data.query}"
+                <div class="search"><input type="text" id="searchInput" value="${data.query}"
                         spellcheck="false"><span class="bg"></span><span id="searchSubmit"><span
                             class="fas fa-search"></span></span></div>
             </div>
