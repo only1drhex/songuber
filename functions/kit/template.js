@@ -2435,7 +2435,7 @@ export function template(data){
         }
     </style>
     <script> window.appPrompt = null; window.addEventListener('beforeinstallprompt', function (e) { e.preventDefault(); console.log('PWA'); window.appPrompt = e; }); window._PWAV = '1634978272'; window.__ytdl = 'https://ytmp3x.com/'; window._YTDL = JSON.parse('{"_geo":"NG","safe":"https:\/\/ytmp3x.com\/","desk":"https:\/\/ytmp3x.com\/","mobi":"https:\/\/ytmp3x.com\/"}'); </script>
-    <script type="text/javascript" src="/ibro.js" async defer></script>
+    <script type="text/javascript" src="/client-ui.js" async defer></script>
 </head>
  
 <body>
