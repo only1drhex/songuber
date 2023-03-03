@@ -6,7 +6,7 @@ export function template(data){
 <html lang="en">
 
 <head>
-    <title> ${data.query} MP3 Download 320kbps</title>
+    <title> ${data.query} MP3 Download</title>
     <meta property="og:title" content=" ${data.query} MP3 Download" />
     <meta property="og:site_name" content="SongUber" />
     <meta name="description"
