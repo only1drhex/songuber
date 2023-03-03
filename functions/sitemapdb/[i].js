@@ -2493,7 +2493,7 @@ var html =
 <body>
     <div class="leading">
         <div class="background">
-            <div data-image="${data.thumbnail.replace('mqdefault','sddefault')}" data-title="Yo"></div>
+            <div data-image="" data-title="Yo"></div>
         </div>
         <div class="header">
             <div class="layout"><a class="logo" href="/"
