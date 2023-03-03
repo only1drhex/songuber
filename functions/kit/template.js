@@ -8,6 +8,7 @@ export function template(data){
 <head>
     <title> ${data.query} MP3 Download 320kbps</title>
     <meta property="og:title" content=" ${data.query} MP3 Download" />
+    <meta property="og:site_name" content="SongUber" />
     <meta name="description"
         content="${data.query} MP3 Download. Download ${data.query} mp3 file at 320kbps audio quality." />
     <meta property="og:description"
