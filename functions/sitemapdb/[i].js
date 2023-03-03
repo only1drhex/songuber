@@ -13,7 +13,7 @@ export async function onRequestGet(context){
 var path = context.functionPath.split("/")[2].match(/\d/g).join("");
 var webx = context.request.url.split("/")[2]
 if(path == 1){
-    word = word.slice(0,50000)
+    word = word.slice(0,10000)
 }
 
 else if(path == 2){
