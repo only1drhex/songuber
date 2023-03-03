@@ -17,11 +17,11 @@ if(path == 1){
 }
 
 else if(path == 2){
-    word = word.slice(50000,100000)
+    word = word.slice(10000,20000)
 }
 
 else if(path == 3){
-    word = word.slice(100000,150000) 
+    word = word.slice(20000,30000) 
 }
 
 else if (path == 4){
@@ -30,7 +30,7 @@ else if (path == 4){
 
 for(var i=0;i<word.length;i++){
     var entry = word[i]
-map += `<a href="https://${webx}/mp3/${entry}">${entry}</a>` 
+map += `<li><a href="https://${webx}/mp3/${entry}">${entry}</li></a>` 
 
 }
 
@@ -42,7 +42,7 @@ var html =
         content="Music Sitemap" />
         </div>
     <body>
-    ${map}
+    <ul>${map}</ul>
 </body></html>`
 return new Response(html, { headers : {"content-type": "text/html;charset-UTF=8"} });
 
