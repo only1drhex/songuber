@@ -33,16 +33,23 @@ for(var i=0;i<word.length;i++){
 map += `<li><a href="https://${webx}/mp3/${entry}">${entry}</li></a>` 
 
 }
-
+ 
 
 var html =
 `<!doctype html>
 <html lang="en"> <head> <title> Music Sitemap</title>
-    <meta name="description"
+   <head> <meta name="description"
         content="Music Sitemap" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
         </div>
+        <style>
+
+        </style>
+        </head>
     <body>
+    <section>
     <ul>${map}</ul>
+    </section>
 </body></html>`
 return new Response(html, { headers : {"content-type": "text/html;charset-UTF=8"} });
 

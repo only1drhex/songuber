@@ -1037,7 +1037,7 @@ export function template(data){
             position: absolute;
             right: 20px;
             color: #FFFFFF;
-            font-size: 24px;
+            font-size: 33px;
             z-index: 2
         }
 
