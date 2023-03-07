@@ -12,21 +12,11 @@ export async function onRequestGet(context){
    
 var path = context.functionPath.split("/")[2].match(/\d/g).join("");
 var webx = context.request.url.split("/")[2]
-if(path == 1){
-    word = word.slice(0,10000)
-}
-
-else if(path == 2){
-    word = word.slice(10000,20000)
-}
-
-else if(path == 3){
-    word = word.slice(20000,30000) 
-}
-
-else if (path == 4){
-    word = word.slice(150000)
-}
+var index = path
+index = Number(index)
+var lastIndex = index*10000;
+var firstIndex = lastIndex - 9999;
+word = word.slice(firstIndex-1,lastIndex)
 
 for(var i=0;i<word.length;i++){
     var entry = word[i]
